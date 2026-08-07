@@ -4,7 +4,7 @@
 
 ## Adresse unique
 
-**contact.hasakistudio@gmail.fr**
+**contact@hasakistudio.fr**
 
 C'est le seul canal de contact. Il n'existe ni support téléphonique, ni formulaire, ni compte
 utilisateur permettant d'échanger depuis l'application.

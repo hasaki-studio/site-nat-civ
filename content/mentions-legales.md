@@ -9,7 +9,7 @@
 - SIREN : *[À COMPLÉTER après immatriculation]*
 - Siège : *[À COMPLÉTER — adresse de l'entreprise]*
 - Directeur de la publication : *[À COMPLÉTER — nom et prénom du responsable]*
-- Contact : contact.hasakistudio@gmail.fr
+- Contact : contact@hasakistudio.fr
 
 ## Hébergeur du site
 
@@ -126,6 +126,6 @@ l'activité y est soumise]*, ou saisir la juridiction compétente.
 ## Contact
 
 Toute question relative à ces mentions ou à l'application peut être adressée à :
-**contact.hasakistudio@gmail.fr**
+**contact@hasakistudio.fr**
 
 Les modalités détaillées figurent sur la page [Contact](/contact).

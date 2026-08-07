@@ -25,7 +25,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # --------------------------------------------------------------------------
 
 SITE_URL = "https://naturalisation.hasakistudio.fr"
-CONTACT_EMAIL = "contact.hasakistudio@gmail.fr"
+CONTACT_EMAIL = "contact@hasakistudio.fr"
 STUDIO = "Hasaki Studio"
 ANNEE = "2026"
 

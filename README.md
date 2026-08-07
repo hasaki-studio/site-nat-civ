@@ -104,8 +104,10 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
 - [ ] **Médiateur de la consommation** (mentions légales) — si l'activité y est soumise
 - [ ] **Liens officiels** de `content/conseils-de-revision.md` — les cliquer un par un ;
       ils n'ont pas pu être vérifiés automatiquement
-- [ ] **Adresse de contact** — vérifier qu'un message envoyé à l'adresse publiée arrive
-      bien ; c'est le seul canal prévu par les trois documents
+- [ ] **Boîte `contact@hasakistudio.fr`** — la créer dans l'espace client OVH (offre MX
+      Plan incluse avec le domaine), puis s'envoyer un message de test. C'est le seul
+      canal de contact prévu par les trois documents : la LCEN, l'exercice des droits
+      RGPD et la Play Console s'appuient tous dessus.
 - [ ] Rafraîchir les dates de « dernière mise à jour » si la mise en ligne est postérieure
 
 ## Ajouter la seconde application

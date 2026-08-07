@@ -25,7 +25,7 @@ Trois traitements font intervenir des services Google, chacun avec son propre r�
 
 - SIREN : *[À COMPLÉTER après immatriculation]*
 - Adresse : *[À COMPLÉTER]*
-- Contact : **contact.hasakistudio@gmail.fr**
+- Contact : **contact@hasakistudio.fr**
 
 ## 2. Données que l'application ne collecte pas
 
@@ -185,7 +185,7 @@ directs sont donc :
 2. **Effacer les données locales** : réglages Android → Applications → Réussir mon entretien →
    Stockage → Effacer les données, ou désinstaller l'application.
 3. **Réinitialiser l'identifiant publicitaire** : réglages Android → Google → Annonces.
-4. **Écrire à l'éditeur** : contact.hasakistudio@gmail.fr. Une réponse est apportée dans un
+4. **Écrire à l'éditeur** : contact@hasakistudio.fr. Une réponse est apportée dans un
    délai d'un mois.
 
 Vous pouvez également introduire une réclamation auprès de la **Commission nationale de
@@ -219,6 +219,6 @@ substantielle des traitements soumis à consentement donnera lieu à un nouveau 
 
 ## 12. Contact
 
-**contact.hasakistudio@gmail.fr**
+**contact@hasakistudio.fr**
 
 Modalités détaillées : [page Contact](/contact).
