@@ -25,7 +25,7 @@ saisies : une URL modifiée ou tombée en 404 peut suspendre la fiche Play Store
 content/                Sources éditoriales en Markdown — c'est ici qu'on écrit
 build/build.py          Générateur (Python 3, aucune dépendance)
 build/index.body.html   Corps de la page d'accueil, conservé tel quel
-wrangler.jsonc          Configuration de déploiement Cloudflare
+wrangler.workers.jsonc  Config Workers, inutilisée tant qu'on déploie via Pages
 
 public/                 SEUL dossier publié sur le web
   *.html                Pages générées — ne pas éditer directement
@@ -75,35 +75,36 @@ EOF
 
 ## Déployer
 
-Le site est un **Worker à ressources statiques** : aucun code n'est exécuté, Cloudflare
-sert directement les fichiers de `public/`. Tout est décrit dans `wrangler.jsonc`.
+Cloudflare **Pages**, sans étape de build : les pages sont générées et versionnées, il n'y
+a rien à compiler.
 
-### Depuis la machine
-
-```bash
-npx wrangler deploy
-```
-
-### Depuis le tableau de bord Cloudflare
-
-*Workers & Pages → Create application → Import a repository* → dépôt `site-nat-civ`.
+*Workers & Pages → Create application → Pages → Connect to Git* → dépôt `site-nat-civ`.
 
 | Champ | Valeur |
 |---|---|
-| Project name | `site-nat-civ` |
+| Production branch | `main` |
+| Framework preset | `None` |
 | Build command | *(vide)* |
-| Deploy command | `npx wrangler deploy` |
-| Path | `/` |
+| Build output directory | `public` |
 
 **Ne choisissez aucun modèle** dans la galerie : les templates créent un nouveau dépôt et
-un Worker sans rapport avec ce site.
+un projet sans rapport avec ce site.
 
-Le domaine se rattache ensuite depuis l'onglet **Domains** du projet →
+Pages sert `confidentialite.html` sur `/confidentialite`, applique `public/_headers` et
+rend `public/404.html` sur une adresse inconnue — aucune configuration supplémentaire.
+
+Le domaine se rattache depuis l'onglet **Custom domains** du projet →
 `naturalisation.hasakistudio.fr`. La zone `hasakistudio.fr` étant chez Cloudflare,
-l'enregistrement DNS et le certificat sont créés automatiquement.
+l'enregistrement DNS et le certificat sont créés automatiquement. Un hôte ne peut servir
+qu'un seul service : s'il est déjà rattaché ailleurs, l'en détacher d'abord.
 
-Un hôte ne peut servir qu'un seul Worker : si le domaine est déjà rattaché ailleurs, il
-faut l'en détacher avant.
+### Variante Workers
+
+`wrangler.workers.jsonc` décrit le même site en Worker à ressources statiques. Inutilisé
+tant qu'on passe par Pages — et **volontairement renommé** : Pages lit tout fichier
+`wrangler.jsonc` présent à la racine et refuse de démarrer s'il n'y trouve pas le champ
+`pages_build_output_dir`. Pour l'employer, le renommer en `wrangler.jsonc` et lancer
+`npx wrangler deploy`.
 
 ### Le domaine
 
