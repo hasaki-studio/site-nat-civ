@@ -120,6 +120,20 @@ naturalisation.hasakistudio.fr  ce site
 test-civique.hasakistudio.fr    seconde application
 ```
 
+### Note sur la CSP
+
+`public/_headers` autorise `'unsafe-inline'` en `style-src`, et c'est délibéré : le
+balisage conserve 39 attributs `style` hérités de l'export initial — drapeau tricolore,
+bordures colorées, cercle « bonus ». Une CSP sans cette directive les neutralise
+silencieusement et le site se délave sans qu'aucune erreur ne remonte.
+
+`script-src` reste en `'self'` strict, et c'est là que la CSP protège réellement. Le
+risque résiduel des styles en ligne est négligeable sur un site statique sans contenu
+soumis par des tiers.
+
+Attention : `_headers` n'est appliqué que par Cloudflare. Une prévisualisation locale ne
+révèle donc jamais un problème de CSP — il faut regarder le site déployé.
+
 ## Avant la mise en ligne
 
 Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur les pages :
