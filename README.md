@@ -104,10 +104,19 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
 - [ ] **Médiateur de la consommation** (mentions légales) — si l'activité y est soumise
 - [ ] **Liens officiels** de `content/conseils-de-revision.md` — les cliquer un par un ;
       ils n'ont pas pu être vérifiés automatiquement
-- [ ] **Boîte `contact@hasakistudio.fr`** — la créer dans l'espace client OVH (offre MX
-      Plan incluse avec le domaine), puis s'envoyer un message de test. C'est le seul
-      canal de contact prévu par les trois documents : la LCEN, l'exercice des droits
-      RGPD et la Play Console s'appuient tous dessus.
+- [x] **`contact@hasakistudio.fr`** — réception vérifiée. L'offre OVH du domaine est
+      « MX Plan redirect » : zéro boîte aux lettres, mais 1000 redirections. L'adresse
+      est donc un alias qui achemine vers la boîte Gmail de l'éditeur.
+      *Limite connue* : une redirection ne permet pas d'**émettre** depuis l'adresse ;
+      les réponses partent de l'adresse personnelle. Pour y remédier, commander une
+      vraie boîte MX Plan puis configurer l'envoi via le SMTP d'OVH (`ssl0.ovh.net`) —
+      le SPF du domaine (`include:mx.ovh.com`) le couvre déjà sans modification.
+      Tester depuis une adresse tierce : un envoi depuis la boîte de destination est
+      dédupliqué par Gmail et donne un faux négatif.
+- [ ] **DKIM et DMARC** — absents de la zone. Sans importance tant que le domaine
+      n'émet pas de courrier ; à ajouter le jour où une vraie boîte est en place, sous
+      peine de voir les réponses classées en indésirables (or le RGPD impose une
+      réponse sous un mois).
 - [ ] Rafraîchir les dates de « dernière mise à jour » si la mise en ligne est postérieure
 
 ## Ajouter la seconde application
