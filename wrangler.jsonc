@@ -1,0 +1,19 @@
+{
+  // Worker à ressources statiques : aucun code exécuté, Cloudflare sert
+  // directement les fichiers de public/. Déploiement : npx wrangler deploy
+  "name": "site-nat-civ",
+  "compatibility_date": "2026-08-07",
+
+  "assets": {
+    // Seul ce dossier est publié. Les sources Markdown et le générateur
+    // restent dans le dépôt sans jamais être exposés sur le web.
+    "directory": "./public",
+
+    // Sert confidentialite.html sur /confidentialite, conformément aux URL
+    // canoniques des pages et à celles déclarées à la Play Console.
+    "html_handling": "auto-trailing-slash",
+
+    // Une adresse inconnue rend public/404.html avec un vrai statut 404.
+    "not_found_handling": "404-page"
+  }
+}

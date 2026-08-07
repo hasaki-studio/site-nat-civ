@@ -19,6 +19,8 @@ import os
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Tout ce qui est servi vit dans public/ ; les sources restent hors de portée du web.
+OUT = os.path.join(ROOT, "public")
 
 # --------------------------------------------------------------------------
 # Configuration — un seul endroit à modifier
@@ -89,6 +91,17 @@ PAGES = [
             "données traitées, bases légales, consentements et vos droits."
         ),
         "priority": "0.5",
+    },
+    {
+        "slug": "404",
+        "url": "/404",
+        "source": "content/404.md",
+        "eyebrow": "Erreur 404",
+        "h1": "Cette page n'existe pas",
+        "title": "Page introuvable — Hasaki Studio",
+        "description": "La page demandée n'existe pas ou a été déplacée.",
+        "priority": "0.0",
+        "sitemap": False,
     },
     {
         "slug": "mentions-legales",
@@ -402,7 +415,7 @@ def build():
             script=TOGGLE_SCRIPT,
         )
 
-        path = os.path.join(ROOT, page["slug"] + ".html")
+        path = os.path.join(OUT, page["slug"] + ".html")
         open(path, "w", encoding="utf-8").write(doc)
         written.append((page["slug"] + ".html", len(doc)))
 
@@ -411,6 +424,7 @@ def build():
         '  <url><loc>%s%s</loc><priority>%s</priority></url>'
         % (SITE_URL, p["url"], p["priority"])
         for p in PAGES
+        if p.get("sitemap", True)
     )
     sitemap = (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -418,11 +432,11 @@ def build():
         + urls
         + "\n</urlset>\n"
     )
-    open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8").write(sitemap)
+    open(os.path.join(OUT, "sitemap.xml"), "w", encoding="utf-8").write(sitemap)
 
     # robots.txt
     robots = "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % SITE_URL
-    open(os.path.join(ROOT, "robots.txt"), "w", encoding="utf-8").write(robots)
+    open(os.path.join(OUT, "robots.txt"), "w", encoding="utf-8").write(robots)
 
     for name, size in written:
         print("%-28s %6d octets" % (name, size))

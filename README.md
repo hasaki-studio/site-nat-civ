@@ -22,20 +22,28 @@ saisies : une URL modifiée ou tombée en 404 peut suspendre la fiche Play Store
 ## Organisation
 
 ```
-content/            Sources éditoriales en Markdown — c'est ici qu'on écrit
-build/build.py      Générateur (Python 3, aucune dépendance)
+content/                Sources éditoriales en Markdown — c'est ici qu'on écrit
+build/build.py          Générateur (Python 3, aucune dépendance)
 build/index.body.html   Corps de la page d'accueil, conservé tel quel
-assets/site.css     Feuille de style commune aux 5 pages (éditée à la main)
-assets/site.js      Bascule des blocs repliables
-*.html              Pages générées — ne pas éditer directement
-sitemap.xml         Généré
-robots.txt          Généré
-_headers            En-têtes HTTP servis par Cloudflare Pages
+wrangler.jsonc          Configuration de déploiement Cloudflare
+
+public/                 SEUL dossier publié sur le web
+  *.html                Pages générées — ne pas éditer directement
+  assets/site.css       Feuille de style commune (éditée à la main)
+  assets/site.js        Bascule des blocs repliables
+  sitemap.xml           Généré
+  robots.txt            Généré
+  _headers              En-têtes HTTP appliqués par Cloudflare
+  favicon.ico
 ```
 
-Le contenu se modifie dans `content/*.md`, jamais dans les `.html`, qui sont écrasés à
-chaque génération. `assets/site.css` est en revanche un fichier source : il a été extrait
-une fois de l'export initial puis complété à la main, et le générateur n'y touche pas.
+Cette séparation est délibérée : `content/` et `build/` restent dans le dépôt mais ne sont
+jamais servis, sinon les sources Markdown seraient accessibles en ligne et feraient doublon
+avec les pages.
+
+Le contenu se modifie dans `content/*.md`, jamais dans les `.html` de `public/`, qui sont
+écrasés à chaque génération. `public/assets/site.css` est en revanche un fichier source :
+extrait une fois de l'export initial puis complété à la main, le générateur n'y touche pas.
 
 ## Générer
 
@@ -48,13 +56,12 @@ sont définis en tête de `build/build.py` — un seul endroit à modifier.
 
 ## Prévisualiser
 
-Cloudflare Pages sert `confidentialite.html` sur `/confidentialite`. Pour reproduire ce
-routage en local :
+Cloudflare sert `confidentialite.html` sur `/confidentialite`. Pour reproduire ce routage
+en local :
 
 ```bash
-python3 - <<'EOF'
+cd public && python3 - <<'EOF'
 import http.server, os, socketserver
-os.chdir(os.path.dirname(os.path.abspath('.')) and '.')
 class H(http.server.SimpleHTTPRequestHandler):
     def translate_path(self, path):
         p = super().translate_path(path)
@@ -66,22 +73,43 @@ socketserver.TCPServer(("127.0.0.1", 8899), H).serve_forever()
 EOF
 ```
 
-## Déployer sur Cloudflare Pages
+## Déployer
 
-1. **Cloudflare → Workers & Pages → Create → Pages → Connect to Git**, choisir ce dépôt.
-2. Configuration de build :
-   - Framework preset : **None**
-   - Build command : *(vide — les pages sont générées et versionnées)*
-   - Build output directory : `/`
-3. **Custom domains → Set up a custom domain** → `naturalisation.hasakistudio.fr`.
-   Cloudflare crée l'enregistrement DNS et le certificat automatiquement si la zone
-   `hasakistudio.fr` est déjà chez lui.
+Le site est un **Worker à ressources statiques** : aucun code n'est exécuté, Cloudflare
+sert directement les fichiers de `public/`. Tout est décrit dans `wrangler.jsonc`.
+
+### Depuis la machine
+
+```bash
+npx wrangler deploy
+```
+
+### Depuis le tableau de bord Cloudflare
+
+*Workers & Pages → Create application → Import a repository* → dépôt `site-nat-civ`.
+
+| Champ | Valeur |
+|---|---|
+| Project name | `site-nat-civ` |
+| Build command | *(vide)* |
+| Deploy command | `npx wrangler deploy` |
+| Path | `/` |
+
+**Ne choisissez aucun modèle** dans la galerie : les templates créent un nouveau dépôt et
+un Worker sans rapport avec ce site.
+
+Le domaine se rattache ensuite depuis l'onglet **Domains** du projet →
+`naturalisation.hasakistudio.fr`. La zone `hasakistudio.fr` étant chez Cloudflare,
+l'enregistrement DNS et le certificat sont créés automatiquement.
+
+Un hôte ne peut servir qu'un seul Worker : si le domaine est déjà rattaché ailleurs, il
+faut l'en détacher avant.
 
 ### Le domaine
 
-`hasakistudio.fr` s'achète chez un registrar accrédité AFNIC — Cloudflare Registrar ne
-vend pas de `.fr`. Une fois acheté, ajouter la zone dans Cloudflare et faire pointer les
-serveurs de noms du registrar vers ceux indiqués par Cloudflare.
+`hasakistudio.fr` est enregistré chez OVH — Cloudflare Registrar ne vend pas de `.fr` — et
+ses serveurs de noms pointent vers Cloudflare. Conserver le verrou de transfert activé chez
+OVH : il n'a aucun rapport avec la délégation DNS et protège contre le détournement.
 
 Prévoir un sous-domaine par produit :
 
