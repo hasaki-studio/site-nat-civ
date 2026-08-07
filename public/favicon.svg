@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Hasaki Studio">
+  <defs>
+    <clipPath id="c"><rect x="1" y="1" width="30" height="30" rx="6.5"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect x="1" y="1" width="10" height="30" fill="#1C2B49"/>
+    <rect x="11" y="1" width="10" height="30" fill="#F6F3EC"/>
+    <rect x="21" y="1" width="10" height="30" fill="#A62B2B"/>
+  </g>
+  <rect x="1" y="1" width="30" height="30" rx="6.5" fill="none"
+        stroke="#000000" stroke-opacity="0.22" stroke-width="1.2"/>
+</svg>

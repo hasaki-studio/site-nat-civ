@@ -23,7 +23,8 @@ saisies : une URL modifiée ou tombée en 404 peut suspendre la fiche Play Store
 
 ```
 content/                Sources éditoriales en Markdown — c'est ici qu'on écrit
-build/build.py          Générateur (Python 3, aucune dépendance)
+build/build.py          Générateur des pages (Python 3, aucune dépendance)
+build/make_favicon.py   Générateur des icônes
 build/index.body.html   Corps de la page d'accueil, conservé tel quel
 wrangler.workers.jsonc  Config Workers, inutilisée tant qu'on déploie via Pages
 
@@ -34,7 +35,9 @@ public/                 SEUL dossier publié sur le web
   sitemap.xml           Généré
   robots.txt            Généré
   _headers              En-têtes HTTP appliqués par Cloudflare
-  favicon.ico
+  favicon.svg           Icône vectorielle — générée
+  favicon.ico           Repli 16/32/48 px — générée
+  apple-touch-icon.png  Écran d'accueil iOS — générée
 ```
 
 Cette séparation est délibérée : `content/` et `build/` restent dans le dépôt mais ne sont
@@ -51,8 +54,15 @@ extrait une fois de l'export initial puis complété à la main, le générateur
 python3 build/build.py
 ```
 
-Régénère les 5 pages, `sitemap.xml` et `robots.txt`. Le domaine et l'adresse de contact
+Régénère les 6 pages, `sitemap.xml` et `robots.txt`. Le domaine et l'adresse de contact
 sont définis en tête de `build/build.py` — un seul endroit à modifier.
+
+```bash
+python3 build/make_favicon.py
+```
+
+Régénère les icônes à partir de la marque tricolore de l'en-tête. À relancer seulement si
+la marque change ; les fichiers produits sont versionnés.
 
 ## Prévisualiser
 

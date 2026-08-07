@@ -342,7 +342,9 @@ SHELL = """<!DOCTYPE html>
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{og_title}">
 <meta name="twitter:description" content="{og_description}">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css">
 {jsonld}</head>
 <body>
