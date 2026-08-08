@@ -188,14 +188,14 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
       Achraf AZOUZI, personne physique, « Hasaki Studio » en simple nom d'usage. Les trois
       pages sont alignées ; ne pas réintroduire « micro-entreprise » sans immatriculation
       réelle.
-- [ ] **Domicile et téléphone** (mentions légales et politique, §1) — obligatoires pour un
-      éditeur personne physique (LCEN art. 6-III).
-      **Point de vigilance** : la confidentialité de l'adresse (fournie au seul hébergeur,
-      non publiée) n'est ouverte qu'aux particuliers n'agissant pas à titre professionnel.
-      Une activité rémunérée par publicité et achat intégré en relève probablement, ce qui
-      rendrait l'adresse domiciliaire publique tant que la micro-entreprise n'existe pas.
-      À vérifier avant de renseigner une adresse personnelle — une solution de
-      domiciliation évite de publier son domicile.
+- [ ] **Domicile** (mentions légales et politique, §1) — adresse de réexpédition renseignée
+      (3 avenue de Choisy, Tour Bergame, BP 2122), **code postal et ville encore
+      manquants**. Confirmer aussi s'il s'agit d'une domiciliation commerciale agréée
+      (recevrait une signification d'huissier, réutilisable comme adresse de la future
+      micro-entreprise) ou d'une simple réexpédition privée (suffisante pour l'instant,
+      mais probablement à remplacer par une vraie domiciliation à l'immatriculation).
+- [ ] **Téléphone** (mentions légales, §1) — obligatoire pour un éditeur personne physique
+      (LCEN art. 6-III), encore à renseigner.
 - [ ] **Immatriculation** — dès le SIREN obtenu, remplacer la mention personne physique par
       « Hasaki Studio, micro-entreprise » + SIREN + adresse professionnelle dans les trois
       fichiers listés ci-dessus, et actualiser le schema.org `Organization` de

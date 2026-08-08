@@ -24,7 +24,7 @@ Trois traitements font intervenir des services Google, chacun avec son propre r�
 **Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
 immatriculée.
 
-- Domicile : *[À COMPLÉTER — obligatoire pour un éditeur personne physique]*
+- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, *[À COMPLÉTER — code postal et ville]*
 - Contact : **contact@hasakistudio.fr**
 
 ## 2. Données que l'application ne collecte pas

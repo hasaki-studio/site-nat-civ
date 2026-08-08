@@ -7,7 +7,7 @@
 **Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
 immatriculée.
 
-- Domicile : *[À COMPLÉTER — obligatoire pour un éditeur personne physique]*
+- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, *[À COMPLÉTER — code postal et ville]*
 - Téléphone : *[À COMPLÉTER — obligatoire]*
 - Contact : contact@hasakistudio.fr
 
