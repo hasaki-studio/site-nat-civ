@@ -9,7 +9,7 @@
 C'est le seul canal de contact. Il n'existe ni support téléphonique, ni formulaire, ni compte
 utilisateur permettant d'échanger depuis l'application.
 
-Hasaki Studio est une micro-entreprise : les réponses sont rédigées par une personne, pas par
+Vous écrivez directement à l'éditeur : les réponses sont rédigées par une personne, pas par
 un service. Comptez généralement **quelques jours ouvrés**, et jusqu'à **un mois** pour les
 demandes relatives à vos données personnelles, conformément au délai prévu par le RGPD.
 

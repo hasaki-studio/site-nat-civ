@@ -183,13 +183,29 @@ changements structurels ; superflu pour une correction de deux lignes.
 
 Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur les pages :
 
-- [ ] **SIREN** (mentions légales et politique, §1) — après immatriculation
-- [ ] **Adresse du siège** (mentions légales et politique, §1)
-- [ ] **Directeur de la publication** — nom et prénom de la personne physique ; la LCEN ne
-      se contente pas du nom commercial
+- [x] **Statut de l'éditeur** — le site déclare une micro-entreprise non encore
+      immatriculée : mentions légales, politique §1 et page contact affichent désormais
+      Achraf AZOUZI, personne physique, « Hasaki Studio » en simple nom d'usage. Les trois
+      pages sont alignées ; ne pas réintroduire « micro-entreprise » sans immatriculation
+      réelle.
+- [ ] **Domicile et téléphone** (mentions légales et politique, §1) — obligatoires pour un
+      éditeur personne physique (LCEN art. 6-III).
+      **Point de vigilance** : la confidentialité de l'adresse (fournie au seul hébergeur,
+      non publiée) n'est ouverte qu'aux particuliers n'agissant pas à titre professionnel.
+      Une activité rémunérée par publicité et achat intégré en relève probablement, ce qui
+      rendrait l'adresse domiciliaire publique tant que la micro-entreprise n'existe pas.
+      À vérifier avant de renseigner une adresse personnelle — une solution de
+      domiciliation évite de publier son domicile.
+- [ ] **Immatriculation** — dès le SIREN obtenu, remplacer la mention personne physique par
+      « Hasaki Studio, micro-entreprise » + SIREN + adresse professionnelle dans les trois
+      fichiers listés ci-dessus, et actualiser le schema.org `Organization` de
+      `build/build.py` si le nom d'usage devient une raison sociale déclarée.
 - [ ] **Durée de conservation Firebase Analytics** (politique, §3.2) — relever le réglage
       dans la console Firebase (2 ou 14 mois)
-- [ ] **Médiateur de la consommation** (mentions légales) — si l'activité y est soumise
+- [x] **Médiateur de la consommation** — non applicable en l'état : les achats intégrés sont
+      conclus avec Google Play en qualité de vendeur, les réclamations lui reviennent
+      (mentions légales, « Droit applicable et litiges »). À réexaminer si l'activité change
+      de modèle.
 - [ ] **Liens officiels** de `content/conseils-de-revision.md` — les cliquer un par un ;
       ils n'ont pas pu être vérifiés automatiquement
 - [x] **`contact@hasakistudio.fr`** — réception vérifiée. L'offre OVH du domaine est

@@ -1,15 +1,18 @@
 # Mentions légales
 
-*Dernière mise à jour : 7 août 2026*
+*Dernière mise à jour : 8 août 2026*
 
 ## Éditeur
 
-**Hasaki Studio** — micro-entreprise
+**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
+immatriculée.
 
-- SIREN : *[À COMPLÉTER après immatriculation]*
-- Siège : *[À COMPLÉTER — adresse de l'entreprise]*
-- Directeur de la publication : *[À COMPLÉTER — nom et prénom du responsable]*
+- Domicile : *[À COMPLÉTER — obligatoire pour un éditeur personne physique]*
+- Téléphone : *[À COMPLÉTER — obligatoire]*
 - Contact : contact@hasakistudio.fr
+
+Application indépendante, non affiliée au ministère de l'Intérieur ni à aucune
+administration.
 
 ## Hébergeur du site
 
@@ -88,10 +91,10 @@ L'application propose une option **Premium** : un achat **unique**, sans abonnem
 prélèvement récurrent, qui débloque l'intégralité des contenus, supprime les publicités et
 inclut les mises à jour de contenu.
 
-Le paiement est intégralement traité par **Google Play**. Aucune donnée bancaire ne transite
-par l'application et l'éditeur n'y a jamais accès. Le droit acquis est rattaché à votre compte
-Google Play : il est restauré automatiquement en cas de réinstallation ou de changement
-d'appareil.
+Le paiement est intégralement traité par **Google Play**, qui agit en qualité de vendeur.
+Aucune donnée bancaire ne transite par l'application et l'éditeur n'y a jamais accès. Le droit
+acquis est rattaché à votre compte Google Play : il est restauré automatiquement en cas de
+réinstallation ou de changement d'appareil.
 
 Le droit de rétractation applicable aux contenus numériques fournis immédiatement est régi par
 les conditions de Google Play. Toute demande de remboursement relève de Google Play.
@@ -99,7 +102,7 @@ les conditions de Google Play. Toute demande de remboursement relève de Google 
 ## Propriété intellectuelle
 
 La structure de l'application, son interface, ses textes rédactionnels et ses éléments
-graphiques sont la propriété de Hasaki Studio, sauf mention contraire. Toute reproduction ou
+graphiques sont la propriété d'Achraf AZOUZI, sauf mention contraire. Toute reproduction ou
 réutilisation sans autorisation préalable est interdite.
 
 Les contenus issus de sources publiques officielles, notamment le Livret du citoyen, demeurent
@@ -119,9 +122,12 @@ information devenue obsolète, ni d'une interruption de service.
 Les présentes mentions sont soumises au droit français.
 
 En cas de différend, une solution amiable sera recherchée en priorité, en écrivant à
-l'adresse de contact ci-dessus. À défaut de résolution, le consommateur peut recourir
-gratuitement à un médiateur de la consommation *[À COMPLÉTER — désignation du médiateur, si
-l'activité y est soumise]*, ou saisir la juridiction compétente.
+l'adresse de contact ci-dessus. À défaut de résolution, la juridiction compétente peut être
+saisie.
+
+Les achats étant conclus avec Google Play en qualité de vendeur, les réclamations relatives au
+paiement, à la facturation ou au remboursement relèvent de Google et de ses propres voies de
+recours.
 
 ## Contact
 

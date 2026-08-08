@@ -21,10 +21,10 @@ Trois traitements font intervenir des services Google, chacun avec son propre r�
 
 ## 1. Responsable du traitement
 
-**Hasaki Studio**, micro-entreprise.
+**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
+immatriculée.
 
-- SIREN : *[À COMPLÉTER après immatriculation]*
-- Adresse : *[À COMPLÉTER]*
+- Domicile : *[À COMPLÉTER — obligatoire pour un éditeur personne physique]*
 - Contact : **contact@hasakistudio.fr**
 
 ## 2. Données que l'application ne collecte pas
