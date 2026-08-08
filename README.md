@@ -144,6 +144,41 @@ soumis par des tiers.
 Attention : `_headers` n'est appliqué que par Cloudflare. Une prévisualisation locale ne
 révèle donc jamais un problème de CSP — il faut regarder le site déployé.
 
+## Modifier un texte
+
+Le contenu vit dans `content/*.md`. Les `.html` de `public/` en sont **générés** : les
+éditer directement ne sert à rien, ils sont écrasés au build suivant.
+
+### Depuis le navigateur, sans rien installer
+
+1. Ouvrir le fichier dans `content/` sur GitHub, cliquer le crayon *Edit*
+2. Modifier le Markdown
+3. *Commit directly to the `main` branch*
+
+Cloudflare détecte le commit, relance `python3 build/build.py` et publie. Compter une
+minute. Ni pull ni merge : ces commandes ne concernent qu'une copie locale.
+
+**Prérequis** : le projet Cloudflare doit avoir `python3 build/build.py` en *build
+command*. Sans elle, le commit déclenche un déploiement qui republie l'ancien HTML —
+sans erreur, et sans que le texte change.
+
+### Depuis une copie locale
+
+```bash
+# éditer content/*.md
+python3 build/build.py
+git add -A && git commit -m "…" && git push
+```
+
+### Faut-il passer par une branche ?
+
+Pas pour du texte. Un build en échec ne met pas le site hors ligne : Cloudflare continue
+de servir le dernier déploiement réussi.
+
+Une branche est utile pour **voir avant de publier** — Cloudflare crée un déploiement de
+prévisualisation, avec sa propre URL, pour toute branche autre que `main`. Réservé aux
+changements structurels ; superflu pour une correction de deux lignes.
+
 ## Avant la mise en ligne
 
 Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur les pages :
