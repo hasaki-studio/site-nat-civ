@@ -188,14 +188,20 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
       Achraf AZOUZI, personne physique, « Hasaki Studio » en simple nom d'usage. Les trois
       pages sont alignées ; ne pas réintroduire « micro-entreprise » sans immatriculation
       réelle.
-- [ ] **Domicile** (mentions légales et politique, §1) — adresse de réexpédition renseignée
-      (3 avenue de Choisy, Tour Bergame, BP 2122), **code postal et ville encore
-      manquants**. Confirmer aussi s'il s'agit d'une domiciliation commerciale agréée
-      (recevrait une signification d'huissier, réutilisable comme adresse de la future
-      micro-entreprise) ou d'une simple réexpédition privée (suffisante pour l'instant,
-      mais probablement à remplacer par une vraie domiciliation à l'immatriculation).
-- [ ] **Téléphone** (mentions légales, §1) — obligatoire pour un éditeur personne physique
-      (LCEN art. 6-III), encore à renseigner.
+- [x] **Domicile** (mentions légales et politique, §1) — 3 avenue de Choisy, Tour Bergame,
+      BP 2122, 75013 Paris. C'est la réexpédition **La Poste** de l'ancien domicile de
+      l'éditeur, pas une domiciliation commerciale.
+      **Point de vigilance, à ne pas perdre de vue** : ce service est contractuel et limité
+      dans le temps (6 à 12 mois, renouvelable) — sans renouvellement, cette adresse cesse
+      de transmettre le courrier sans que rien sur le site ne le signale. Ce n'est en outre
+      probablement pas le domicile *actuel* de l'éditeur au sens strict de la LCEN, plutôt
+      une ancienne adresse maintenue active. À remplacer par le domicile réel, ou mieux par
+      une domiciliation commerciale agréée, avant l'immatriculation — une domiciliation
+      pourrait aussi recevoir une signification d'huissier et devenir l'adresse déclarée de
+      la micro-entreprise, ce qu'une réexpédition personnelle ne permet pas.
+- [x] **Téléphone** (mentions légales, §1) — 06 13 66 73 89. C'est le mobile personnel de
+      l'éditeur, publié publiquement sur la page ; à remplacer par une ligne dédiée si les
+      appels/SMS indésirables deviennent gênants, ou à l'immatriculation.
 - [ ] **Immatriculation** — dès le SIREN obtenu, remplacer la mention personne physique par
       « Hasaki Studio, micro-entreprise » + SIREN + adresse professionnelle dans les trois
       fichiers listés ci-dessus, et actualiser le schema.org `Organization` de
