@@ -388,11 +388,9 @@ Pour toute démarche administrative, utilisez en priorité les sources officiell
 
 ------------------------------------------------------------------------
 
-# Contact
+## Contact
 
-Toute question relative à ces mentions ou à l'application peut être
-adressée à :
-
+Toute question relative à ces mentions ou à l'application peut être adressée à :
 **contact@hasakistudio.fr**
 
-Les modalités détaillées figurent sur la page **Contact** du site.
+Les modalités détaillées figurent sur la page [Contact](/contact).
