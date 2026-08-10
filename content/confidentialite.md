@@ -69,8 +69,7 @@ n'est envoyée.
 **Retrait** : à tout moment, depuis l'écran « Mentions légales » de l'application. Le retrait
 interrompt immédiatement toute nouvelle collecte.
 
-**Durée** : *[À COMPLÉTER — durée de conservation paramétrée dans la console Firebase, par
-défaut 2 ou 14 mois selon le réglage retenu]*
+**Durée** : La durée de conservation définie est limitée à 14 mois.
 
 ### 3.3 Publicité — Google AdMob
 
