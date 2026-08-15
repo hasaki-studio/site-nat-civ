@@ -535,9 +535,6 @@ officielles :
     Service-Public.fr**\
     <https://www.service-public.gouv.fr/particuliers/vosdroits/R60835>
 
-    **[Comprendre les démarches de naturalisation ---
-    Service-Public.fr]([VOTRE_LIEN_GOOGLE_PLAY_UTM](https://www.service-public.gouv.fr/particuliers/vosdroits/R60835))**
-
 ------------------------------------------------------------------------
 
 ## Contact
