@@ -528,12 +528,15 @@ officielles :
 -   **Suivre votre dossier de naturalisation sur Administration Numérique pour les Étrangers en France (ANEF)**\
     <https://administration-etrangers-en-france.interieur.gouv.fr/>
 
--   **La dernièe evrsion du livret du citoyen --- Ministère de l'Intérieur**\
+-   **La dernièe version du livret du citoyen --- Ministère de l'Intérieur**\
     <https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/livret-du-citoyen.html>
 
 -   **Comprendre les démarches de naturalisation ---
     Service-Public.fr**\
     <https://www.service-public.gouv.fr/particuliers/vosdroits/R60835>
+
+    **[Comprendre les démarches de naturalisation ---
+    Service-Public.fr]([VOTRE_LIEN_GOOGLE_PLAY_UTM](https://www.service-public.gouv.fr/particuliers/vosdroits/R60835))**
 
 ------------------------------------------------------------------------
 
