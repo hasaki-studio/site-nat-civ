@@ -140,6 +140,10 @@ def _inline(text):
 
     text = html.escape(text, quote=False)
 
+    # Retour à la ligne dur hérité de pandoc : une barre oblique inverse suivie
+    # d'un blanc. Sans ce traitement, elle s'affiche telle quelle dans le texte.
+    text = re.sub(r"\\(?=\s|$)", "<br>", text)
+
     # [libellé](url)
     def link(m):
         label, href = m.group(1), m.group(2)
@@ -148,6 +152,17 @@ def _inline(text):
         return stash('<a href="%s"%s>%s</a>' % (html.escape(href, quote=True), attrs, label))
 
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, text)
+
+    # Lien automatique <https://…>. Le texte est déjà échappé à ce stade, les
+    # chevrons se présentent donc sous leur forme entité.
+    def autolien(m):
+        href = m.group(1)
+        return stash(
+            '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
+            % (html.escape(href, quote=True), href)
+        )
+
+    text = re.sub(r"&lt;(https?://[^\s&<>]+)&gt;", autolien, text)
 
     # **gras**
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
@@ -185,6 +200,7 @@ def md_to_html(md):
     lines = md.split("\n")
     out, i = [], 0
     n = len(lines)
+    titre_consomme = False
 
     while i < n:
         line = lines[i]
@@ -194,8 +210,14 @@ def md_to_html(md):
             i += 1
             continue
 
-        # Titre de niveau 1 : consommé par le gabarit, pas rendu ici
+        # Le premier titre de niveau 1 est le titre du document : le gabarit le
+        # rend déjà en <h1>, on ne le duplique pas. Les suivants sont de vraies
+        # sections — les ignorer ferait disparaître la structure de la page.
         if stripped.startswith("# "):
+            if not titre_consomme:
+                titre_consomme = True
+            else:
+                out.append("<h2>%s</h2>" % _inline(stripped[2:]))
             i += 1
             continue
 

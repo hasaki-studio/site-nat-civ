@@ -34,10 +34,9 @@ sur les notions qui vous posent le plus de difficultés.
 L'application est conçue pour vous aider à **réviser, vous entraîner et
 mieux comprendre les notions à connaître pour l'entretien**.
 
-**[Télécharger l'application Android](VOTRE_LIEN_GOOGLE_PLAY_UTM)**
+**[Bientôt disponible sur Android](/#application)**
 
-**[Télécharger l'application sur l'App
-Store](VOTRE_LIEN_APP_STORE_UTM)**
+**[Bientôt disponible sur l'App Store](/#application)**
 
 ------------------------------------------------------------------------
 
@@ -310,10 +309,9 @@ installation, votre travail, vos attaches et vos projets.
 Utilisez **Mon Entretien : Naturalisation** pour réviser les différents
 thèmes et vous entraîner régulièrement.
 
-**[Télécharger l'application Android](VOTRE_LIEN_GOOGLE_PLAY_UTM)**
+**[Bientôt disponible sur Android](/#application)**
 
-**[Télécharger l'application sur l'App
-Store](VOTRE_LIEN_APP_STORE_UTM)**
+**[Bientôt disponible sur l'App Store](/#application)**
 
 ------------------------------------------------------------------------
 
@@ -501,11 +499,9 @@ mieux comprendre les notions à connaître**, sans réduire la préparation
 
 ### 📱 Commencez votre préparation
 
-**[Télécharger Mon Entretien : Naturalisation sur
-Android](VOTRE_LIEN_GOOGLE_PLAY_UTM)**
+**[Bientôt disponible sur Android](/#application)**
 
-**[Télécharger Mon Entretien : Naturalisation sur l'App
-Store](VOTRE_LIEN_APP_STORE_UTM)**
+**[Bientôt disponible sur l'App Store](/#application)**
 
 ------------------------------------------------------------------------
 
