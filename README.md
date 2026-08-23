@@ -206,8 +206,18 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
       « Hasaki Studio, micro-entreprise » + SIREN + adresse professionnelle dans les trois
       fichiers listés ci-dessus, et actualiser le schema.org `Organization` de
       `build/build.py` si le nom d'usage devient une raison sociale déclarée.
-- [ ] **Durée de conservation Firebase Analytics** (politique, §3.2) — relever le réglage
-      dans la console Firebase (2 ou 14 mois)
+- [x] **Durée de conservation Firebase Analytics** (politique, §3.2) — fixée à 14 mois.
+- [ ] **Liens vers les magasins, le jour de la publication** — `content/conseils-de-revision.md`
+      contient six liens « Bientôt disponible » qui pointent vers `/#application`, faute
+      d'application publiée. Le jour de la mise en ligne, les remplacer par les adresses
+      définitives, puis régénérer et redéployer :
+
+      Google Play   https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien
+      App Store     https://apps.apple.com/app/id6800917243
+
+      Les mêmes adresses valent pour les deux boutons de `build/index.body.html`, qui
+      affichent eux aussi « Bientôt disponible ». Ne jamais publier une adresse
+      `appstoreconnect.apple.com` : c'est le back-office privé, pas la fiche publique.
 - [x] **Médiateur de la consommation** — non applicable en l'état : les achats intégrés sont
       conclus avec Google Play en qualité de vendeur, les réclamations lui reviennent
       (mentions légales, « Droit applicable et litiges »). À réexaminer si l'activité change
