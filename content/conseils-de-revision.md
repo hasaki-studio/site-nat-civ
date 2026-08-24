@@ -507,12 +507,19 @@ mieux comprendre les notions à connaître**, sans réduire la préparation
 
 # 🆕 Prochainement : préparez aussi l'examen civique
 
-Vous devez également préparer l'examen civique ?
+Vous devez également préparer l'examen civique ? C'est une étape distincte
+de l'entretien d'assimilation : un QCM de 40 questions en 45 minutes, dont
+il faut obtenir 32 bonnes réponses.
 
-Une application dédiée à cet examen est actuellement en préparation.
+**Réussir mon examen civique** est une application dédiée à cet examen,
+orientée vers l'entraînement au format QCM. Elle est en préparation.
 
-**Questions à choix multiple, entraînement et préparation spécifique à
-l'examen civique : prochainement.**
+Le site consacré à l'examen civique réunit d'ores et déjà les listes
+officielles de questions, qui diffèrent selon la démarche, et une méthode
+de révision :
+[examencivique.hasakistudio.fr](https://examencivique.hasakistudio.fr/)
+
+→ [Conseils de révision pour l'examen civique](https://examencivique.hasakistudio.fr/conseils-de-revision)
 
 ------------------------------------------------------------------------
 
