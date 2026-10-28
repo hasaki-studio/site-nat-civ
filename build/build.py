@@ -40,16 +40,15 @@ PAGES = [
         "slug": "index",
         "url": "/",
         "body_file": "build/index.body.html",
-        "title": "Entretien naturalisation : révision avec des fiches claires | Hasaki Studio",
+        "title": "Mon Entretien : Naturalisation — préparer l'entretien | Hasaki Studio",
         "description": (
-            "Révision de l'entretien de naturalisation française : fiches claires "
-            "basées sur le Livret du citoyen 2026, sans quiz ni score. "
-            "Application Android bientôt disponible."
+            "Préparez l'entretien de naturalisation comme à l'oral : 136 fiches "
+            "question-réponse, questions ouvertes, 6 thèmes. Application Android gratuite."
         ),
-        "og_title": "Réussir mon entretien de naturalisation",
+        "og_title": "Mon Entretien : Naturalisation",
         "og_description": (
-            "Préparez votre entretien de naturalisation sereinement grâce à des "
-            "fiches de révision claires, basées sur le Livret du citoyen 2026."
+            "136 fiches question-réponse et des questions ouvertes, comme à l'oral, "
+            "pour préparer l'entretien de naturalisation. Application Android gratuite."
         ),
         "priority": "1.0",
     },
@@ -72,7 +71,7 @@ PAGES = [
         "source": "content/contact.md",
         "eyebrow": "Nous écrire",
         "h1": "Contact",
-        "title": "Contact — Réussir mon entretien de naturalisation | Hasaki Studio",
+        "title": "Contact — Mon Entretien : Naturalisation | Hasaki Studio",
         "description": (
             "Signaler une erreur dans une fiche, un problème technique ou une "
             "question sur vos données personnelles."
@@ -85,9 +84,9 @@ PAGES = [
         "source": "content/confidentialite.md",
         "eyebrow": "Vos données",
         "h1": "Politique de confidentialité",
-        "title": "Politique de confidentialité — Réussir mon entretien | Hasaki Studio",
+        "title": "Politique de confidentialité — Mon Entretien : Naturalisation | Hasaki Studio",
         "description": (
-            "Politique de confidentialité de l'application « Réussir mon entretien » : "
+            "Politique de confidentialité de l'application « Mon Entretien : Naturalisation » : "
             "données traitées, bases légales, consentements et vos droits."
         ),
         "priority": "0.5",
@@ -109,9 +108,9 @@ PAGES = [
         "source": "content/mentions-legales.md",
         "eyebrow": "Informations légales",
         "h1": "Mentions légales",
-        "title": "Mentions légales — Réussir mon entretien | Hasaki Studio",
+        "title": "Mentions légales — Mon Entretien : Naturalisation | Hasaki Studio",
         "description": (
-            "Mentions légales de l'application « Réussir mon entretien » éditée par "
+            "Mentions légales de l'application « Mon Entretien : Naturalisation » éditée par "
             "Hasaki Studio : éditeur, hébergeur, responsabilité et propriété intellectuelle."
         ),
         "priority": "0.5",
@@ -325,7 +324,8 @@ TOGGLE_SCRIPT = '<script src="/assets/site.js" defer></script>'
 
 # Données structurées. L'organisation figure sur toutes les pages ; la fiche
 # application seulement sur l'accueil. Volontairement limité aux faits
-# vérifiables : ni prix, ni note, ni nombre d'avis.
+# vérifiables : le prix (gratuit), mais ni note, ni nombre d'avis ou de
+# téléchargements — jamais d'aggregateRating.
 ORGANISATION = {
     "@type": "Organization",
     "name": STUDIO,
@@ -333,17 +333,24 @@ ORGANISATION = {
     "email": CONTACT_EMAIL,
 }
 
+APP_NAME = "Mon Entretien : Naturalisation"
+PLAY_URL = "https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien"
+
 APPLICATION = {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
-    "name": "Réussir mon entretien",
-    "applicationCategory": "EducationalApplication",
+    "@type": "MobileApplication",
+    "name": APP_NAME,
     "operatingSystem": "Android",
+    "applicationCategory": "EducationalApplication",
     "inLanguage": "fr-FR",
     "description": (
-        "Fiches de révision pour préparer l'entretien de naturalisation française, "
-        "basées sur le Livret du citoyen 2026."
+        "Application de préparation à l'entretien de naturalisation française : "
+        "136 fiches question-réponse réparties en 6 niveaux et 6 thèmes, avec des "
+        "questions ouvertes comme à l'oral, y compris sur la situation personnelle."
     ),
+    "url": PLAY_URL,
+    "installUrl": PLAY_URL,
+    "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
     "publisher": ORGANISATION,
 }
 

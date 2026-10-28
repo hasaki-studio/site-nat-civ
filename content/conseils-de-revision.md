@@ -34,9 +34,9 @@ sur les notions qui vous posent le plus de difficultés.
 L'application est conçue pour vous aider à **réviser, vous entraîner et
 mieux comprendre les notions à connaître pour l'entretien**.
 
-**[Bientôt disponible sur Android](/#application)**
+**[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-**[Bientôt disponible sur l'App Store](/#application)**
+*Version iPhone en préparation.*
 
 ------------------------------------------------------------------------
 
@@ -309,9 +309,9 @@ installation, votre travail, vos attaches et vos projets.
 Utilisez **Mon Entretien : Naturalisation** pour réviser les différents
 thèmes et vous entraîner régulièrement.
 
-**[Bientôt disponible sur Android](/#application)**
+**[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-**[Bientôt disponible sur l'App Store](/#application)**
+*Version iPhone en préparation.*
 
 ------------------------------------------------------------------------
 
@@ -499,9 +499,9 @@ mieux comprendre les notions à connaître**, sans réduire la préparation
 
 ### 📱 Commencez votre préparation
 
-**[Bientôt disponible sur Android](/#application)**
+**[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-**[Bientôt disponible sur l'App Store](/#application)**
+*Version iPhone en préparation.*
 
 ------------------------------------------------------------------------
 

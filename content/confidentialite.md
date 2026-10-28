@@ -1,9 +1,9 @@
 # Politique de confidentialité
 
-**Application « Réussir mon entretien »** — préparation à l'entretien de naturalisation
+**Application « Mon Entretien : Naturalisation »** — préparation à l'entretien de naturalisation
 française. Identifiant Android : `com.hasakistudio.reussirmonentretien`
 
-*Dernière mise à jour : 7 août 2026*
+*Dernière mise à jour : 28 octobre 2026*
 
 ## En résumé
 
@@ -21,10 +21,11 @@ Trois traitements font intervenir des services Google, chacun avec son propre r�
 
 ## 1. Responsable du traitement
 
-**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
-immatriculée.
+**Hasaki Studio** — entreprise individuelle d'Achraf AZOUZI.
 
-- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, 75013 Paris
+- SIREN : 130 296 460
+- Siège : 47 rue Crozatier, BP Azouzi, 75012 Paris
+- Téléphone : 06 13 66 73 89
 - Contact : **contact@hasakistudio.fr**
 
 ## 2. Données que l'application ne collecte pas
@@ -91,15 +92,21 @@ partenaires publicitaires concernés et vous permet un choix par finalité.
 **Retrait** : à tout moment, depuis l'écran « Mentions légales » de l'application, rubrique
 « Gérer mes préférences publicitaires ».
 
-**Effet d'un refus** : les publicités continuent d'être affichées, mais **sans
-personnalisation**. Elles ne s'appuient alors plus sur votre identifiant publicitaire à des
-fins de ciblage. Le déblocage de contenu par visionnage reste possible.
+**Effet d'un refus** : **aucune publicité n'est affichée** — ni bandeau, ni publicité avec
+récompense — et le déblocage de contenus par publicité n'est donc pas proposé. Les contenus
+déjà débloqués restent accessibles. Vous pouvez changer d'avis à tout moment depuis
+« Mentions légales → Gérer mes préférences publicitaires », ou passer en Premium.
 
 **Contenu des annonces** : le niveau maximal de contenu publicitaire est plafonné à
 « T » (adolescents), ce qui exclut les catégories réservées aux adultes.
 
+**Sur iPhone** : l'application demande en outre l'autorisation de suivi d'Apple (App Tracking
+Transparency) avant d'accéder à l'identifiant publicitaire de l'appareil (IDFA). Un refus
+n'empêche pas d'utiliser l'application ; il interdit l'accès à cet identifiant.
+
 **Contrôle par vous** : vous pouvez à tout moment réinitialiser ou supprimer votre identifiant
-publicitaire depuis les réglages Android (Paramètres → Google → Annonces).
+publicitaire depuis les réglages Android (Paramètres → Google → Annonces), ou, sur iPhone,
+retirer l'autorisation de suivi (Réglages → Confidentialité et sécurité → Suivi).
 
 ### 3.4 Livraison du contenu — Firebase Firestore et Remote Config (Google)
 
@@ -127,10 +134,10 @@ RGPD).
 
 Ce mécanisme ne vous identifie pas et ne trace pas votre usage.
 
-### 3.6 Achat de l'option Premium — Google Play Billing
+### 3.6 Achat de l'option Premium — Google Play Billing et achats intégrés de l'App Store
 
-**Données** : identifiant de la transaction et statut du droit acquis, transmis par Google
-Play.
+**Données** : identifiant de la transaction et statut du droit acquis, transmis par le magasin
+d'applications utilisé — Google Play ou l'App Store.
 
 **Finalité** : débloquer l'intégralité des contenus et supprimer les publicités, puis rétablir
 ce droit en cas de réinstallation ou de changement d'appareil.
@@ -138,14 +145,16 @@ ce droit en cas de réinstallation ou de changement d'appareil.
 **Base légale** : **exécution du contrat** (article 6.1.b du RGPD).
 
 **Données bancaires** : **aucune donnée de paiement ne transite par l'application** et
-l'éditeur n'y a jamais accès. Le paiement est intégralement traité par Google Play, dont les
-conditions et la politique de confidentialité s'appliquent.
+l'éditeur n'y a jamais accès. Le paiement est intégralement traité par le magasin concerné,
+qui agit en qualité de vendeur et dont les conditions et la politique de confidentialité
+s'appliquent. La restauration de l'achat et les demandes de remboursement relèvent de ce
+magasin.
 
 ## 4. Destinataires
 
 Les données ci-dessus sont traitées par **Google Ireland Limited** et ses entités affiliées,
 en qualité de sous-traitant ou de responsable conjoint selon les services, via les produits
-Firebase, AdMob et Google Play.
+Firebase, AdMob et Google Play — ainsi que par Apple pour les achats réalisés via l'App Store.
 
 Les partenaires publicitaires susceptibles d'intervenir dans la diffusion des annonces sont
 énumérés dans le formulaire de consentement affiché dans l'application, où ils peuvent être
@@ -156,9 +165,14 @@ fonctionnement des services décrits.
 
 ## 5. Le site web
 
-Le présent site est hébergé par **Cloudflare, Inc.** Il ne dépose aucun cookie, n'utilise
-aucun outil de mesure d'audience et ne charge aucune ressource depuis un service tiers. Seuls
-les journaux techniques de l'hébergeur, nécessaires à la sécurité et au fonctionnement du
+Le présent site est hébergé par **Cloudflare, Inc.** Il ne dépose aucun cookie.
+
+Sa fréquentation est mesurée avec **Cloudflare Web Analytics**, un outil sans cookie qui ne
+stocke rien sur votre appareil et produit uniquement des statistiques agrégées — pages vues,
+provenance des visites, type d'appareil — sans identifier les visiteurs ni les suivre d'un site
+à l'autre. Il repose sur un script fourni par Cloudflare.
+
+Les journaux techniques de l'hébergeur, nécessaires à la sécurité et au fonctionnement du
 service, enregistrent temporairement les adresses IP des visiteurs.
 
 ## 6. Transferts hors de l'Union européenne
@@ -181,7 +195,7 @@ directs sont donc :
 
 1. **Retirer un consentement** : depuis l'écran « Mentions légales » de l'application, pour la
    mesure d'usage comme pour la publicité.
-2. **Effacer les données locales** : réglages Android → Applications → Réussir mon entretien →
+2. **Effacer les données locales** : réglages Android → Applications → Mon Entretien : Naturalisation →
    Stockage → Effacer les données, ou désinstaller l'application.
 3. **Réinitialiser l'identifiant publicitaire** : réglages Android → Google → Annonces.
 4. **Écrire à l'éditeur** : contact@hasakistudio.fr. Une réponse est apportée dans un

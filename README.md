@@ -183,41 +183,29 @@ changements structurels ; superflu pour une correction de deux lignes.
 
 Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur les pages :
 
-- [x] **Statut de l'éditeur** — le site déclare une micro-entreprise non encore
-      immatriculée : mentions légales, politique §1 et page contact affichent désormais
-      Achraf AZOUZI, personne physique, « Hasaki Studio » en simple nom d'usage. Les trois
-      pages sont alignées ; ne pas réintroduire « micro-entreprise » sans immatriculation
-      réelle.
-- [x] **Domicile** (mentions légales et politique, §1) — 3 avenue de Choisy, Tour Bergame,
-      BP 2122, 75013 Paris. C'est la réexpédition **La Poste** de l'ancien domicile de
-      l'éditeur, pas une domiciliation commerciale.
-      **Point de vigilance, à ne pas perdre de vue** : ce service est contractuel et limité
-      dans le temps (6 à 12 mois, renouvelable) — sans renouvellement, cette adresse cesse
-      de transmettre le courrier sans que rien sur le site ne le signale. Ce n'est en outre
-      probablement pas le domicile *actuel* de l'éditeur au sens strict de la LCEN, plutôt
-      une ancienne adresse maintenue active. À remplacer par le domicile réel, ou mieux par
-      une domiciliation commerciale agréée, avant l'immatriculation — une domiciliation
-      pourrait aussi recevoir une signification d'huissier et devenir l'adresse déclarée de
-      la micro-entreprise, ce qu'une réexpédition personnelle ne permet pas.
-- [x] **Téléphone** (mentions légales, §1) — 06 13 66 73 89. C'est le mobile personnel de
-      l'éditeur, publié publiquement sur la page ; à remplacer par une ligne dédiée si les
-      appels/SMS indésirables deviennent gênants, ou à l'immatriculation.
-- [ ] **Immatriculation** — dès le SIREN obtenu, remplacer la mention personne physique par
-      « Hasaki Studio, micro-entreprise » + SIREN + adresse professionnelle dans les trois
-      fichiers listés ci-dessus, et actualiser le schema.org `Organization` de
-      `build/build.py` si le nom d'usage devient une raison sociale déclarée.
+- [x] **Identité de l'éditeur** — immatriculé : *Hasaki Studio*, entreprise individuelle
+      d'Achraf AZOUZI, SIREN 130 296 460, siège 47 rue Crozatier, BP Azouzi, 75012 Paris
+      (au caractère près, identique à l'application). Mentions légales et politique §1.
+- [ ] **Mention « EI »** — l'article R. 526-27 du Code de commerce veut le nom de
+      l'entrepreneur immédiatement suivi ou précédé de « EI » ou « entrepreneur
+      individuel » (« Achraf AZOUZI EI »). La formule actuelle, reprise de l'application,
+      s'en approche sans la respecter à la lettre : à corriger dans l'application et sur le
+      site en même temps, pour qu'ils restent identiques.
+- [x] **Téléphone** (mentions légales, §1) — 06 13 66 73 89, mobile personnel de l'éditeur
+      publié publiquement ; à remplacer par une ligne dédiée si les appels indésirables
+      deviennent gênants.
 - [x] **Durée de conservation Firebase Analytics** (politique, §3.2) — fixée à 14 mois.
-- [ ] **Liens vers les magasins, le jour de la publication** — `content/conseils-de-revision.md`
-      contient six liens « Bientôt disponible » qui pointent vers `/#application`, faute
-      d'application publiée. Le jour de la mise en ligne, les remplacer par les adresses
-      définitives, puis régénérer et redéployer :
-
-      Google Play   https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien
-      App Store     https://apps.apple.com/app/id6800917243
-
-      Les mêmes adresses valent pour les deux boutons de `build/index.body.html`, qui
-      affichent eux aussi « Bientôt disponible ». Ne jamais publier une adresse
-      `appstoreconnect.apple.com` : c'est le back-office privé, pas la fiche publique.
+- [x] **Google Play** — l'application est publiée : bouton de l'accueil, QR code
+      (`public/assets/qr-google-play.svg`, vérifié par décodage) et trois liens de
+      `content/conseils-de-revision.md` pointent vers la fiche.
+- [ ] **App Store, le jour de la publication iPhone** — aucun lien App Store n'est publié ;
+      la page conseils affiche « Version iPhone en préparation ». Le moment venu, ajouter
+      un bouton et ces liens vers https://apps.apple.com/app/id6800917243. Les pages
+      légales mentionnent déjà l'App Store pour les achats et le suivi publicitaire (ATT).
+      Ne jamais publier une adresse `appstoreconnect.apple.com` : c'est le back-office
+      privé, pas la fiche publique.
+- [ ] **Web Analytics** — la politique, §5, déclare la mesure d'audience Cloudflare Web
+      Analytics. Si elle n'est pas activée sur le projet Pages, retirer ce paragraphe.
 - [x] **Médiateur de la consommation** — non applicable en l'état : les achats intégrés sont
       conclus avec Google Play en qualité de vendeur, les réclamations lui reviennent
       (mentions légales, « Droit applicable et litiges »). À réexaminer si l'activité change

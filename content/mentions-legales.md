@@ -1,13 +1,13 @@
 # Mentions légales
 
-*Dernière mise à jour : 8 août 2026*
+*Dernière mise à jour : 28 octobre 2026*
 
 ## Éditeur
 
-**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
-immatriculée.
+**Hasaki Studio** — entreprise individuelle d'Achraf AZOUZI, directeur de la publication.
 
-- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, 75013 Paris
+- SIREN : 130 296 460
+- Siège : 47 rue Crozatier, BP Azouzi, 75012 Paris
 - Téléphone : 06 13 66 73 89
 - Contact : contact@hasakistudio.fr
 
@@ -24,11 +24,11 @@ Conformément à l'article 6 de la loi pour la confiance dans l'économie numér
 
 ## Application concernée
 
-**Réussir mon entretien** — application mobile de préparation à l'entretien de naturalisation
-française.
+**Mon Entretien : Naturalisation** — application mobile de préparation à l'entretien de
+naturalisation française.
 
 - Identifiant Android : `com.hasakistudio.reussirmonentretien`
-- Distribution : Google Play
+- Distribution : Google Play. Une version iPhone est en préparation.
 
 ## Indépendance
 
@@ -79,8 +79,16 @@ mesure de performance et, le cas échéant, de personnalisation.
 Ces traitements sont soumis à votre consentement, recueilli via le formulaire de Google
 conforme au cadre de transparence et de consentement de l'IAB. Vous pouvez revenir sur ce
 choix à tout moment depuis l'écran « Mentions légales » de l'application, rubrique « Gérer mes
-préférences publicitaires ». Un refus n'empêche pas l'affichage de publicités : il en retire
-la personnalisation.
+préférences publicitaires ».
+
+En cas de refus, aucune publicité n'est affichée et le déblocage de contenus par publicité
+n'est pas proposé ; les contenus déjà débloqués restent accessibles. Vous pouvez changer d'avis
+à tout moment depuis « Mentions légales → Gérer mes préférences publicitaires », ou passer en
+Premium.
+
+Sur iPhone, l'application demande en outre l'autorisation de suivi d'Apple (App Tracking
+Transparency) avant d'accéder à l'identifiant publicitaire de l'appareil. Un refus n'empêche
+pas d'utiliser l'application ; il interdit l'accès à cet identifiant.
 
 L'éditeur ne vend ni ne transmet aucune donnée personnelle à des fins commerciales en dehors
 du fonctionnement de ces régies publicitaires.
@@ -91,18 +99,18 @@ L'application propose une option **Premium** : un achat **unique**, sans abonnem
 prélèvement récurrent, qui débloque l'intégralité des contenus, supprime les publicités et
 inclut les mises à jour de contenu.
 
-Le paiement est intégralement traité par **Google Play**, qui agit en qualité de vendeur.
-Aucune donnée bancaire ne transite par l'application et l'éditeur n'y a jamais accès. Le droit
-acquis est rattaché à votre compte Google Play : il est restauré automatiquement en cas de
-réinstallation ou de changement d'appareil.
+Le paiement est intégralement traité par le magasin d'applications utilisé — **Google Play**
+ou l'**App Store** —, qui agit en qualité de vendeur. Aucune donnée bancaire ne transite par
+l'application et l'éditeur n'y a jamais accès. Le droit acquis est rattaché à votre compte
+auprès de ce magasin : il est restauré en cas de réinstallation ou de changement d'appareil.
 
 Le droit de rétractation applicable aux contenus numériques fournis immédiatement est régi par
-les conditions de Google Play. Toute demande de remboursement relève de Google Play.
+les conditions du magasin concerné. Toute demande de remboursement relève de ce magasin.
 
 ## Propriété intellectuelle
 
 La structure de l'application, son interface, ses textes rédactionnels et ses éléments
-graphiques sont la propriété d'Achraf AZOUZI, sauf mention contraire. Toute reproduction ou
+graphiques sont la propriété de Hasaki Studio, sauf mention contraire. Toute reproduction ou
 réutilisation sans autorisation préalable est interdite.
 
 Les contenus issus de sources publiques officielles, notamment le Livret du citoyen, demeurent
@@ -125,9 +133,9 @@ En cas de différend, une solution amiable sera recherchée en priorité, en éc
 l'adresse de contact ci-dessus. À défaut de résolution, la juridiction compétente peut être
 saisie.
 
-Les achats étant conclus avec Google Play en qualité de vendeur, les réclamations relatives au
-paiement, à la facturation ou au remboursement relèvent de Google et de ses propres voies de
-recours.
+Les achats étant conclus avec le magasin d'applications — Google Play ou l'App Store — en
+qualité de vendeur, les réclamations relatives au paiement, à la facturation ou au
+remboursement relèvent de ce magasin et de ses propres voies de recours.
 
 ## Contact
 

@@ -55,8 +55,8 @@ Avant d'écrire, sachez que trois actions sont immédiates et ne nécessitent au
 
 - **retirer un consentement** — mesure d'usage ou publicité — depuis l'écran « Mentions
   légales » de l'application ;
-- **effacer toutes vos données locales** — réglages Android → Applications → Réussir mon
-  entretien → Stockage → Effacer les données ;
+- **effacer toutes vos données locales** — réglages Android → Applications → Mon Entretien :
+  Naturalisation → Stockage → Effacer les données ;
 - **réinitialiser votre identifiant publicitaire** — réglages Android → Google → Annonces.
 
 Pour toute autre demande relative à vos droits (accès, rectification, effacement, opposition,

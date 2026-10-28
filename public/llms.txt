@@ -1,0 +1,21 @@
+# Mon Entretien : Naturalisation
+
+> Application Android indépendante de préparation à l'entretien de naturalisation française (entretien d'assimilation), éditée par Hasaki Studio, entreprise individuelle d'Achraf AZOUZI.
+
+- 136 fiches question-réponse, réparties en 6 niveaux et 6 thèmes : Principes et valeurs de la République ; Système institutionnel et politique ; Droits et devoirs des citoyens ; Histoire, géographie et culture ; Vivre dans la société française ; Livret du citoyen 2026 (thème bonus).
+- Des questions ouvertes, comme à l'oral, dont certaines portent sur la situation personnelle du candidat, plutôt que des QCM.
+- Fiches rédigées à partir des sources officielles, dont le Livret du citoyen, et inspirées de témoignages de candidats.
+- Sur chaque fiche : la question, la réponse à dévoiler, souvent une « info utile » et un « bonus » (erreurs à éviter, astuces).
+- Modes de révision : Révision Express (15 fiches au hasard) ; révision en détail, par niveau ou par thème.
+- Gratuite : les niveaux se débloquent en regardant une courte publicité. Option Premium en achat unique, sans abonnement, qui débloque tout et retire les publicités.
+- Les fiches débloquées restent disponibles hors connexion.
+- Android uniquement pour l'instant ; une version iPhone est en préparation.
+- Application indépendante, non affiliée au ministère de l'Intérieur ni à aucune administration.
+
+## Liens
+
+- [Fiche Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)
+- [Site de l'application](https://naturalisation.hasakistudio.fr/)
+- [Conseils de révision pour l'entretien](https://naturalisation.hasakistudio.fr/conseils-de-revision)
+- [Mentions légales](https://naturalisation.hasakistudio.fr/mentions-legales)
+- [Contact](https://naturalisation.hasakistudio.fr/contact)
