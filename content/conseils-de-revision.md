@@ -429,11 +429,6 @@ de l'ANEF.
 Pour suivre votre démarche administrative, utilisez le [site officiel de
 l'ANEF](https://administration-etrangers-en-france.interieur.gouv.fr/).
 
-## L'application est-elle gratuite ?
-
-L'application est proposée comme une solution de révision gratuite pour
-préparer l'entretien de naturalisation.
-
 ## Que faut-il réviser pour l'entretien de naturalisation ?
 
 La préparation proposée s'organise autour de cinq grands thèmes :
@@ -456,11 +451,9 @@ Non. **L'entretien de naturalisation et l'examen civique sont deux
 Une application dédiée à la préparation de l'examen civique est prévue
 prochainement.
 
-## L'application remplace-t-elle les sources officielles ?
-
-Non. **Mon Entretien : Naturalisation est un outil de préparation
-indépendant.** Pour toute démarche administrative, vérifiez toujours les
-informations auprès des sources officielles.
+D'autres réponses — gratuité, fonctionnement hors connexion, caractère
+officiel ou non de l'application, version iPhone — figurent sur la page
+[Questions fréquentes](/faq).
 
 ------------------------------------------------------------------------
 
