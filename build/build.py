@@ -66,6 +66,20 @@ PAGES = [
         "priority": "0.8",
     },
     {
+        "slug": "faq",
+        "url": "/faq",
+        "source": "content/faq.md",
+        "eyebrow": "FAQ",
+        "h1": "Questions fréquentes",
+        "title": "FAQ — entretien de naturalisation et Mon Entretien : Naturalisation | Hasaki Studio",
+        "description": (
+            "Entretien d'assimilation, thèmes, Livret du citoyen, préparation : réponses "
+            "aux questions fréquentes, et tout sur l'application Mon Entretien : Naturalisation."
+        ),
+        "priority": "0.7",
+        "faq": True,
+    },
+    {
         "slug": "contact",
         "url": "/contact",
         "source": "content/contact.md",
@@ -195,6 +209,34 @@ def _split_row(line):
     return [c.strip() for c in line.strip().strip("|").split("|")]
 
 
+
+def faq_jsonld(md):
+    """FAQPage tiré du Markdown de la page : chaque titre « ## » est une question,
+    le texte qui le suit jusqu'au titre suivant en est la réponse. Les données
+    structurées reprennent ainsi exactement le texte affiché, sans copie à tenir
+    à jour."""
+    def texte_brut(bloc):
+        t = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", bloc)
+        t = re.sub(r"[*`]", "", t)
+        paragraphes = [" ".join(p.split()) for p in re.split(r"\n\s*\n", t)]
+        return " ".join(p for p in paragraphes if p)
+
+    questions = []
+    for bloc in re.split(r"^## ", md, flags=re.M)[1:]:
+        question, _, reponse = bloc.partition("\n")
+        questions.append({
+            "@type": "Question",
+            "name": question.strip(),
+            "acceptedAnswer": {"@type": "Answer", "text": texte_brut(reponse)},
+        })
+    return {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": questions,
+        "publisher": ORGANISATION,
+    }
+
+
 def md_to_html(md):
     lines = md.split("\n")
     out, i = [], 0
@@ -315,6 +357,7 @@ FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <li><a href="/mentions-legales" class="underline-offset-4 hover:underline">Mentions légales</a></li>
 <li><a href="/confidentialite" class="underline-offset-4 hover:underline">Politique de confidentialité</a></li>
 <li><a href="/conseils-de-revision" class="underline-offset-4 hover:underline">Conseils de révision</a></li>
+<li><a href="/faq" class="underline-offset-4 hover:underline">Questions fréquentes</a></li>
 <li><a href="/contact" class="underline-offset-4 hover:underline">Contact</a></li>
 </ul>
 <p class="mt-8 text-xs text-papier/70">© {annee} {studio}. Application indépendante, non affiliée au ministère de l'Intérieur.</p>
@@ -424,9 +467,12 @@ def build():
             )
 
         canonical = SITE_URL + page["url"]
-        data = APPLICATION if page["slug"] == "index" else dict(
-            ORGANISATION, **{"@context": "https://schema.org"}
-        )
+        if page["slug"] == "index":
+            data = APPLICATION
+        elif page.get("faq"):
+            data = faq_jsonld(md)
+        else:
+            data = dict(ORGANISATION, **{"@context": "https://schema.org"})
         jsonld = '<script type="application/ld+json">%s</script>\n' % json.dumps(
             data, ensure_ascii=False, separators=(",", ":")
         )
