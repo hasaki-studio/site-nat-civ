@@ -360,6 +360,7 @@ FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <li><a href="/conseils-de-revision" class="underline-offset-4 hover:underline">Conseils de révision</a></li>
 <li><a href="/faq" class="underline-offset-4 hover:underline">Questions fréquentes</a></li>
 <li><a href="/contact" class="underline-offset-4 hover:underline">Contact</a></li>
+<li><a href="https://www.tiktok.com/@mon.entretien.nat" class="underline-offset-4 hover:underline" target="_blank" rel="me noopener">TikTok</a></li>
 </ul>
 <p class="mt-8 text-xs text-papier/70">© {annee} {studio}. Application indépendante, non affiliée au ministère de l'Intérieur.</p>
 </div></footer>""".format(studio=STUDIO, annee=ANNEE)
@@ -379,6 +380,7 @@ ORGANISATION = {
 
 APP_NAME = "Mon Entretien : Naturalisation"
 PLAY_URL = "https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien"
+TIKTOK_URL = "https://www.tiktok.com/@mon.entretien.nat"
 
 APPLICATION = {
     "@context": "https://schema.org",
@@ -397,6 +399,7 @@ APPLICATION = {
     "installUrl": PLAY_URL,
     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
     "publisher": ORGANISATION,
+    "sameAs": [TIKTOK_URL],
 }
 
 SHELL = """<!DOCTYPE html>
