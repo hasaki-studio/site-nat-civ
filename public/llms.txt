@@ -2,7 +2,8 @@
 
 > Application Android indépendante de préparation à l'entretien de naturalisation française (entretien d'assimilation), éditée par Hasaki Studio, entreprise individuelle d'Achraf AZOUZI.
 
-- 136 fiches question-réponse, réparties en 6 niveaux et 6 thèmes : Principes et valeurs de la République ; Système institutionnel et politique ; Droits et devoirs des citoyens ; Histoire, géographie et culture ; Vivre dans la société française ; Livret du citoyen 2026 (thème bonus).
+- 136 fiches question-réponse, réparties en 6 niveaux et 5 thèmes : Principes et valeurs de la République ; Système institutionnel et politique ; Droits et devoirs des citoyens ; Histoire, géographie et culture ; Vivre dans la société française.
+- S'y ajoute un thème bonus, focus sur le Livret du citoyen 2026 (nouveautés et points renforcés de l'édition 2026). Ce n'est pas un thème officiel de l'entretien.
 - Des questions ouvertes, comme à l'oral, dont certaines portent sur la situation personnelle du candidat, plutôt que des QCM.
 - Fiches rédigées à partir des sources officielles, dont le Livret du citoyen, et inspirées de témoignages de candidats.
 - Sur chaque fiche : la question, la réponse à dévoiler, souvent une « info utile » et un « bonus » (erreurs à éviter, astuces).

@@ -106,7 +106,7 @@ France, son histoire, son territoire et sa culture.
 Cette partie concerne notamment la vie quotidienne en France, les règles
 communes et les principes qui permettent de vivre ensemble.
 
-### Focus supplémentaire : Livret du citoyen 2026
+### Thème bonus : focus sur le Livret du citoyen 2026
 
 Un **focus spécifique sur le Livret du citoyen 2026** a également été
 intégré à notre préparation afin de mettre en évidence les éléments
@@ -439,9 +439,9 @@ La préparation proposée s'organise autour de cinq grands thèmes :
 -   Histoire, géographie et culture ;
 -   Vivre dans la société française.
 
-Un thème additionnel contenant les nouveaux sujets et les sujets
-renforcés dans le **Livret du citoyen 2026** est également intégré à la
-préparation.
+S'y ajoute un thème bonus, en forme de focus sur le **Livret du citoyen
+2026**, qui rassemble les nouveaux sujets et les sujets renforcés de cette
+édition. Ce n'est pas un thème officiel de l'entretien.
 
 ## L'application prépare-t-elle à l'examen civique ?
 

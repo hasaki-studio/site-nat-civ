@@ -23,9 +23,13 @@ sur service-public.gouv.fr.
 
 Les questions portent généralement sur la connaissance de la France et sur les valeurs de la
 République, ainsi que sur votre propre parcours. Mon Entretien : Naturalisation organise sa
-préparation en six thèmes : principes et valeurs de la République ; système institutionnel
+préparation en cinq thèmes : principes et valeurs de la République ; système institutionnel
 et politique ; droits et devoirs des citoyens ; histoire, géographie et culture ; vivre dans
-la société française ; et un thème bonus consacré au Livret du citoyen 2026.
+la société française.
+
+S'y ajoute un thème bonus, en forme de focus sur le Livret du citoyen 2026. Ce n'est pas un
+thème officiel de l'entretien : il rassemble les nouveautés et les points renforcés de
+l'édition 2026 du Livret.
 
 Ces thèmes servent à organiser la révision. Ils ne constituent pas une liste officielle des
 sujets abordés pendant l'entretien.

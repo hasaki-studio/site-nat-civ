@@ -42,8 +42,9 @@ PAGES = [
         "body_file": "build/index.body.html",
         "title": "Mon Entretien : Naturalisation — préparer l'entretien | Hasaki Studio",
         "description": (
-            "Préparez l'entretien de naturalisation comme à l'oral : 136 fiches "
-            "question-réponse, questions ouvertes, 6 thèmes. Application Android gratuite."
+            "Préparez l'entretien de naturalisation comme à l'oral : 136 fiches, "
+            "questions ouvertes, 5 thèmes + focus Livret du citoyen 2026. "
+            "Application Android gratuite."
         ),
         "og_title": "Mon Entretien : Naturalisation",
         "og_description": (
@@ -388,7 +389,8 @@ APPLICATION = {
     "inLanguage": "fr-FR",
     "description": (
         "Application de préparation à l'entretien de naturalisation française : "
-        "136 fiches question-réponse réparties en 6 niveaux et 6 thèmes, avec des "
+        "136 fiches question-réponse réparties en 6 niveaux et 5 thèmes, plus un thème "
+        "bonus consacré au Livret du citoyen 2026, avec des "
         "questions ouvertes comme à l'oral, y compris sur la situation personnelle."
     ),
     "url": PLAY_URL,
