@@ -165,14 +165,9 @@ fonctionnement des services décrits.
 
 ## 5. Le site web
 
-Le présent site est hébergé par **Cloudflare, Inc.** Il ne dépose aucun cookie.
-
-Sa fréquentation est mesurée avec **Cloudflare Web Analytics**, un outil sans cookie qui ne
-stocke rien sur votre appareil et produit uniquement des statistiques agrégées — pages vues,
-provenance des visites, type d'appareil — sans identifier les visiteurs ni les suivre d'un site
-à l'autre. Il repose sur un script fourni par Cloudflare.
-
-Les journaux techniques de l'hébergeur, nécessaires à la sécurité et au fonctionnement du
+Le présent site est hébergé par **Cloudflare, Inc.** Il ne dépose aucun cookie, n'utilise
+aucun outil de mesure d'audience et ne charge aucune ressource depuis un service tiers. Seuls
+les journaux techniques de l'hébergeur, nécessaires à la sécurité et au fonctionnement du
 service, enregistrent temporairement les adresses IP des visiteurs.
 
 ## 6. Transferts hors de l'Union européenne

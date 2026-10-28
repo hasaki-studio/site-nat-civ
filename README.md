@@ -204,8 +204,9 @@ Emplacements encore à renseigner — ils apparaissent en surbrillance ocre sur 
       légales mentionnent déjà l'App Store pour les achats et le suivi publicitaire (ATT).
       Ne jamais publier une adresse `appstoreconnect.apple.com` : c'est le back-office
       privé, pas la fiche publique.
-- [ ] **Web Analytics** — la politique, §5, déclare la mesure d'audience Cloudflare Web
-      Analytics. Si elle n'est pas activée sur le projet Pages, retirer ce paragraphe.
+- [x] **Web Analytics** — désactivé sur ce site ; la politique, §5, déclare donc l'absence
+      de mesure d'audience. Si l'outil est activé un jour, mettre ce paragraphe à jour
+      **avant** : la CSP l'autorise déjà, la collecte commencerait sans être déclarée.
 - [x] **Médiateur de la consommation** — non applicable en l'état : les achats intégrés sont
       conclus avec Google Play en qualité de vendeur, les réclamations lui reviennent
       (mentions légales, « Droit applicable et litiges »). À réexaminer si l'activité change
