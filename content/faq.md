@@ -68,7 +68,9 @@ n'est pas proposé ; vous pouvez changer d'avis à tout moment ou passer en Prem
 
 ## Fonctionne-t-elle sans connexion ?
 
-Oui pour les fiches déjà débloquées : elles restent disponibles hors connexion.
+Oui pour tout ce qui est déjà débloqué. Les fiches restent disponibles hors connexion, et
+il en va de même des réponses bonus : une fois débloquée, une réponse bonus le reste et se
+consulte aussi sans connexion.
 
 ## Existe-t-elle sur iPhone ?
 

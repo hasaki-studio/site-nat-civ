@@ -8,7 +8,7 @@
 - Sur chaque fiche : la question, la réponse à dévoiler, souvent une « info utile » et un « bonus » (erreurs à éviter, astuces).
 - Modes de révision : Révision Express (15 fiches au hasard) ; révision en détail, par niveau ou par thème.
 - Gratuite : les niveaux se débloquent en regardant une courte publicité. Option Premium en achat unique, sans abonnement, qui débloque tout et retire les publicités.
-- Les fiches débloquées restent disponibles hors connexion.
+- Les fiches débloquées restent disponibles hors connexion, de même que les réponses bonus une fois débloquées.
 - Android uniquement pour l'instant ; une version iPhone est en préparation.
 - Application indépendante, non affiliée au ministère de l'Intérieur ni à aucune administration.
 
