@@ -37,10 +37,10 @@ sujets abordés pendant l'entretien.
 ## Qu'est-ce qu'une question de mise en situation ?
 
 C'est une question qui vous place face à une situation concrète et vous demande comment vous
-réagiriez, par exemple : « Que feriez-vous si votre enfant vous annonçait son
-homosexualité ? ». Il n'y a pas de réponse à réciter. Ce type de question invite à montrer
+réagiriez, par exemple : « Que feriez-vous si votre enfant souhaitait changer de
+religion ? ». Il n'y a pas de réponse à réciter. Ce type de question invite à montrer
 comment vous appliquez, dans la vie de tous les jours, les principes et valeurs de la
-République — ici l'égalité et le refus des discriminations.
+République — ici la liberté de conscience, qui comprend celle de changer de religion.
 
 Mon Entretien : Naturalisation en regroupe de nombreuses, réparties dans les fiches de chaque
 thème, souvent accompagnées d'un « bonus » qui signale les erreurs à éviter.
@@ -48,8 +48,8 @@ thème, souvent accompagnées d'un « bonus » qui signale les erreurs à évite
 ## L'application prépare-t-elle aux questions sur la situation personnelle ?
 
 Oui. En plus des questions de connaissances et des mises en situation, l'application propose
-de nombreuses questions sur votre situation personnelle, par exemple : « Comment avez-vous
-été élevé avec vos frères et sœurs ? ». Elles aident à construire des réponses à partir de
+de nombreuses questions sur votre situation personnelle, par exemple : « Avez-vous été
+élevé différemment de vos frères et sœurs ? ». Elles aident à construire des réponses à partir de
 votre propre vécu, et à les relier aux valeurs de la République, comme l'égalité entre les
 filles et les garçons.
 

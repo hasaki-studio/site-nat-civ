@@ -146,13 +146,13 @@ Cette question peut vous amener à expliquer votre compréhension de la
 Il faut être capable d'expliquer ce que représente cette égalité et de
 l'illustrer par des exemples.
 
-### « Que feriez-vous si votre enfant vous annonçait son homosexualité ? »
+### « Que feriez-vous si votre enfant souhaitait changer de religion ? »
 
-C'est une **mise en situation** : elle invite à montrer comment l'égalité
-et le refus des discriminations s'appliquent concrètement, jusque dans la
-vie familiale.
+C'est une **mise en situation** : elle invite à montrer que la liberté de
+conscience, y compris celle de changer de religion, vaut aussi au sein de
+la famille.
 
-### « Comment avez-vous été élevé avec vos frères et sœurs ? »
+### « Avez-vous été élevé différemment de vos frères et sœurs ? »
 
 Une question sur votre **situation personnelle**, qui peut vous amener à
 parler d'égalité entre les filles et les garçons à partir de votre propre
