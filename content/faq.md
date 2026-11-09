@@ -1,6 +1,6 @@
 # Questions fréquentes
 
-*Dernière mise à jour : 28 octobre 2026*
+*Dernière mise à jour : 9 novembre 2026*
 
 > Cette application est indépendante et n'est pas affiliée au ministère de l'Intérieur.
 > Les réponses ci-dessous sont données à titre indicatif ; pour la procédure officielle,
@@ -33,6 +33,25 @@ l'édition 2026 du Livret.
 
 Ces thèmes servent à organiser la révision. Ils ne constituent pas une liste officielle des
 sujets abordés pendant l'entretien.
+
+## Qu'est-ce qu'une question de mise en situation ?
+
+C'est une question qui vous place face à une situation concrète et vous demande comment vous
+réagiriez, par exemple : « Que feriez-vous si votre enfant vous annonçait son
+homosexualité ? ». Il n'y a pas de réponse à réciter. Ce type de question invite à montrer
+comment vous appliquez, dans la vie de tous les jours, les principes et valeurs de la
+République — ici l'égalité et le refus des discriminations.
+
+Mon Entretien : Naturalisation en regroupe de nombreuses, réparties dans les fiches de chaque
+thème, souvent accompagnées d'un « bonus » qui signale les erreurs à éviter.
+
+## L'application prépare-t-elle aux questions sur la situation personnelle ?
+
+Oui. En plus des questions de connaissances et des mises en situation, l'application propose
+de nombreuses questions sur votre situation personnelle, par exemple : « Comment avez-vous
+été élevé avec vos frères et sœurs ? ». Elles aident à construire des réponses à partir de
+votre propre vécu, et à les relier aux valeurs de la République, comme l'égalité entre les
+filles et les garçons.
 
 ## Faut-il connaître le Livret du citoyen ?
 

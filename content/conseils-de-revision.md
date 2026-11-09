@@ -114,14 +114,19 @@ actualisés de la nouvelle édition.
 
 ------------------------------------------------------------------------
 
-# Les questions de l'entretien ne sont pas seulement des QCM
+# Mises en situation et questions personnelles : l'entretien n'est pas un QCM
 
 Un point essentiel à comprendre avant de commencer vos révisions :
 l'entretien de naturalisation ne doit pas être préparé comme un simple
 questionnaire à choix multiple.
 
 Certaines questions demandent au candidat de **s'exprimer, d'expliquer
-son point de vue et de construire une réponse personnelle**.
+son point de vue et de construire une réponse personnelle** : des questions
+d'opinion, des **mises en situation**, qui vous placent face à un cas
+concret, et des questions sur votre **situation personnelle**.
+
+**Mon Entretien : Naturalisation** regroupe de nombreuses questions de ce
+type, réparties dans les fiches de chaque thème.
 
 Par exemple :
 
@@ -140,6 +145,18 @@ Cette question peut vous amener à expliquer votre compréhension de la
 
 Il faut être capable d'expliquer ce que représente cette égalité et de
 l'illustrer par des exemples.
+
+### « Que feriez-vous si votre enfant vous annonçait son homosexualité ? »
+
+C'est une **mise en situation** : elle invite à montrer comment l'égalité
+et le refus des discriminations s'appliquent concrètement, jusque dans la
+vie familiale.
+
+### « Comment avez-vous été élevé avec vos frères et sœurs ? »
+
+Une question sur votre **situation personnelle**, qui peut vous amener à
+parler d'égalité entre les filles et les garçons à partir de votre propre
+vécu.
 
 **L'objectif de votre préparation doit donc être de comprendre les
 notions et d'être capable de les expliquer avec vos propres mots.**
