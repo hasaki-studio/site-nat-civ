@@ -385,14 +385,14 @@ L'attestation de réussite à l'examen civique et l'entretien
 d'assimilation correspondent donc à deux étapes et à deux préparations
 différentes.
 
-### 🆕 Application dédiée à l'examen civique --- prochainement
+### 🆕 Application dédiée à l'examen civique
 
-Nous préparons également une application consacrée à la préparation de
-**l'examen civique**.
+**Mon examen civique** est une application consacrée à la préparation de
+**l'examen civique**, orientée vers l'entraînement au format QCM.
 
-Elle sera spécifiquement orientée vers l'entraînement au format QCM.
+**[Télécharger Mon examen civique sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.examencivique)**
 
-**Disponible prochainement.**
+*Version iPhone en préparation.*
 
 ------------------------------------------------------------------------
 
@@ -465,8 +465,9 @@ S'y ajoute un thème bonus, en forme de focus sur le **Livret du citoyen
 Non. **L'entretien de naturalisation et l'examen civique sont deux
 étapes distinctes de la procédure.**
 
-Une application dédiée à la préparation de l'examen civique est prévue
-prochainement.
+Une application distincte, **Mon examen civique**, est consacrée à la
+préparation de l'examen civique :
+[disponible sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.examencivique).
 
 D'autres réponses — gratuité, fonctionnement hors connexion, caractère
 officiel ou non de l'application, disponibilité sur iPhone — figurent sur la page
@@ -515,16 +516,17 @@ mieux comprendre les notions à connaître**, sans réduire la préparation
 
 ------------------------------------------------------------------------
 
-# 🆕 Prochainement : préparez aussi l'examen civique
+# 🆕 Préparez aussi l'examen civique
 
 Vous devez également préparer l'examen civique ? C'est une étape distincte
 de l'entretien d'assimilation : un QCM de 40 questions en 45 minutes, dont
 il faut obtenir 32 bonnes réponses.
 
-**Réussir mon examen civique** est une application dédiée à cet examen,
-orientée vers l'entraînement au format QCM. Elle est en préparation.
+**Mon examen civique** est une application dédiée à cet examen,
+orientée vers l'entraînement au format QCM. Elle est disponible sur
+[Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.examencivique) ; la version iPhone est en préparation.
 
-Le site consacré à l'examen civique réunit d'ores et déjà les listes
+Le site consacré à l'examen civique réunit également les listes
 officielles de questions, qui diffèrent selon la démarche, et une méthode
 de révision :
 [examencivique.hasakistudio.fr](https://examencivique.hasakistudio.fr/)
