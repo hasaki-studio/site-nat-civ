@@ -1,6 +1,6 @@
 # Questions fréquentes
 
-*Dernière mise à jour : 9 novembre 2026*
+*Dernière mise à jour : 12 novembre 2026*
 
 > Cette application est indépendante et n'est pas affiliée au ministère de l'Intérieur.
 > Les réponses ci-dessous sont données à titre indicatif ; pour la procédure officielle,
@@ -97,6 +97,6 @@ consulte aussi sans connexion.
 
 ## Existe-t-elle sur iPhone ?
 
-Pas encore. L'application est disponible sur Android, via
+Oui. L'application est disponible sur iPhone, via
+[l'App Store](https://apps.apple.com/fr/app/id6800917243), et sur Android, via
 [Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien).
-Une version iPhone est en préparation.

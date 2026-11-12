@@ -44,12 +44,12 @@ PAGES = [
         "description": (
             "Préparez l'entretien de naturalisation comme à l'oral : 136 fiches, "
             "mises en situation et questions personnelles. "
-            "Application Android gratuite."
+            "Application gratuite, Android et iPhone."
         ),
         "og_title": "Mon Entretien : Naturalisation",
         "og_description": (
             "136 fiches question-réponse, dont de nombreuses mises en situation, pour "
-            "préparer l'entretien de naturalisation comme à l'oral. Application Android gratuite."
+            "préparer l'entretien de naturalisation comme à l'oral. Application gratuite, Android et iPhone."
         ),
         "priority": "1.0",
     },
@@ -380,13 +380,14 @@ ORGANISATION = {
 
 APP_NAME = "Mon Entretien : Naturalisation"
 PLAY_URL = "https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien"
+APP_STORE_URL = "https://apps.apple.com/fr/app/id6800917243"
 TIKTOK_URL = "https://www.tiktok.com/@mon.entretien.nat"
 
 APPLICATION = {
     "@context": "https://schema.org",
     "@type": "MobileApplication",
     "name": APP_NAME,
-    "operatingSystem": "Android",
+    "operatingSystem": "Android, iOS",
     "applicationCategory": "EducationalApplication",
     "inLanguage": "fr-FR",
     "description": (
@@ -396,11 +397,11 @@ APPLICATION = {
         "questions ouvertes comme à l'oral, dont de nombreuses mises en situation et "
         "questions sur la situation personnelle du candidat."
     ),
-    "url": PLAY_URL,
-    "installUrl": PLAY_URL,
+    "url": SITE_URL + "/",
+    "installUrl": [PLAY_URL, APP_STORE_URL],
     "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"},
     "publisher": ORGANISATION,
-    "sameAs": [TIKTOK_URL],
+    "sameAs": [PLAY_URL, APP_STORE_URL, TIKTOK_URL],
 }
 
 SHELL = """<!DOCTYPE html>

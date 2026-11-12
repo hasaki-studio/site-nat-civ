@@ -3,7 +3,7 @@
 **Conseils de révision, Livret du citoyen 2026, convocation et
 préparation à l'entretien d'assimilation**
 
-*Dernière mise à jour : 15 août 2026*
+*Dernière mise à jour : 12 novembre 2026*
 
 > **Important :** cette application est indépendante et n'est pas
 > affiliée au ministère de l'Intérieur. Les informations ci-dessous sont
@@ -36,7 +36,7 @@ mieux comprendre les notions à connaître pour l'entretien**.
 
 **[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-*Version iPhone en préparation.*
+**[Télécharger l'application sur l'App Store (iPhone)](https://apps.apple.com/fr/app/id6800917243)**
 
 ------------------------------------------------------------------------
 
@@ -328,7 +328,7 @@ thèmes et vous entraîner régulièrement.
 
 **[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-*Version iPhone en préparation.*
+**[Télécharger l'application sur l'App Store (iPhone)](https://apps.apple.com/fr/app/id6800917243)**
 
 ------------------------------------------------------------------------
 
@@ -469,7 +469,7 @@ Une application dédiée à la préparation de l'examen civique est prévue
 prochainement.
 
 D'autres réponses — gratuité, fonctionnement hors connexion, caractère
-officiel ou non de l'application, version iPhone — figurent sur la page
+officiel ou non de l'application, disponibilité sur iPhone — figurent sur la page
 [Questions fréquentes](/faq).
 
 ------------------------------------------------------------------------
@@ -511,7 +511,7 @@ mieux comprendre les notions à connaître**, sans réduire la préparation
 
 **[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.reussirmonentretien)**
 
-*Version iPhone en préparation.*
+**[Télécharger l'application sur l'App Store (iPhone)](https://apps.apple.com/fr/app/id6800917243)**
 
 ------------------------------------------------------------------------
 

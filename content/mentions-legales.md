@@ -1,6 +1,6 @@
 # Mentions légales
 
-*Dernière mise à jour : 28 octobre 2026*
+*Dernière mise à jour : 12 novembre 2026*
 
 ## Éditeur
 
@@ -27,8 +27,8 @@ Conformément à l'article 6 de la loi pour la confiance dans l'économie numér
 **Mon Entretien : Naturalisation** — application mobile de préparation à l'entretien de
 naturalisation française.
 
-- Identifiant Android : `com.hasakistudio.reussirmonentretien`
-- Distribution : Google Play. Une version iPhone est en préparation.
+- Identifiant Android et iOS : `com.hasakistudio.reussirmonentretien`
+- Distribution : Google Play (Android) et App Store (iPhone).
 
 ## Indépendance
 
