@@ -54,6 +54,17 @@ PAGES = [
         "priority": "1.0",
     },
     {
+        "slug": "telecharger",
+        "url": "/telecharger",
+        "body_file": "build/telecharger.body.html",
+        "title": "Télécharger Mon Entretien : Naturalisation — Android et iPhone",
+        "description": (
+            "Liens de téléchargement de Mon Entretien : Naturalisation, application "
+            "gratuite de préparation à l'entretien de naturalisation, sur Google Play et l'App Store."
+        ),
+        "priority": "0.6",
+    },
+    {
         "slug": "conseils-de-revision",
         "url": "/conseils-de-revision",
         "source": "content/conseils-de-revision.md",
@@ -360,6 +371,7 @@ FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <li><a href="/conseils-de-revision" class="underline-offset-4 hover:underline">Conseils de révision</a></li>
 <li><a href="/faq" class="underline-offset-4 hover:underline">Questions fréquentes</a></li>
 <li><a href="/contact" class="underline-offset-4 hover:underline">Contact</a></li>
+<li><a href="/telecharger" class="underline-offset-4 hover:underline">Télécharger l'application</a></li>
 <li><a href="https://www.tiktok.com/@mon.entretien.nat" class="underline-offset-4 hover:underline" target="_blank" rel="me noopener">TikTok</a></li>
 </ul>
 <p class="mt-8 text-xs text-papier/70">© {annee} {studio}. Application indépendante, non affiliée au ministère de l'Intérieur.</p>
